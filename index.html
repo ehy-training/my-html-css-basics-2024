@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <!--Schritt 9-->
+
+<head>
+    <!--Schritt 10-->
     <title>Meine erste Homepage</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        nav ul a {
+
+            color: #fff;
+        }
+    </style>
+
 </head>
 
 <body style="background:grey;color:white">
 
-    <header id="main-header" 
-     style="
+    <header id="main-header" style="
         background:blue;
         text-align: center;
         padding: 8px;
@@ -19,11 +28,7 @@
     </header>
 
     <nav id="main-nav">
-        <ul style="
-           display:flex;
-           gap: 1em;
-           list-style-type: none;
-           ">
+        <ul>
             <li>Startseite</li>
             <li><a href="folgeseite.html">Folgeseite</a></li>
             <li><a href="#main-footer">Zum Footer</a></li>
@@ -43,23 +48,19 @@
 
         <div id="bildergalerie" style="display:flex">
             <figure>
-                <img src="assets/img/colors-2004497_1920.jpeg" width="100%">
+                <img src="assets/img/building-7300734_1920.jpeg" width="100%" alt="Ein modernes Veranstaltungsgebäude, gelegen an einem See.">
             </figure>
             <figure>
-                <img src="assets/img/colors-2004497_1920.jpeg" width="100%">
+                <img src="assets/img/building-7515153_1920.jpeg" width="100%" alt="Eine interessant strukturierte Holzfassade an einem modernen Gebäude.">
             </figure>
             <figure>
-                <img 
-                src="
+                <img src="
                 assets/img/colors-2004497_1920.jpeg
-                " 
-                width="
+                " width="
                 100%
-                "
-                alt="
+                " alt="
                 Eine bunte moderne Fassade.
-                "
-                >
+                ">
             </figure>
 
         </div>
